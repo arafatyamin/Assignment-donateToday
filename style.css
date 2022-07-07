@@ -1,0 +1,122 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.background{
+    background-image:url(images/donation9.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 50px;
+}
+.top-header-text{
+    color: #ffffff;
+    padding: 100px;
+    background-color: rgba(100, 99, 99, 0.157);
+}
+.top-header-text h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+.button-style{
+    background-color:rgba(254, 80, 89, 0.946);
+    border-radius:5px;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    font-size:16px;
+    display: inline-block;
+}
+.margin-b{
+    margin-bottom: 150px;
+}
+.amount{
+    margin-right: 20px;
+    padding: 15px 20px;
+    background-color:rgba(128, 128, 128, 0.044);
+}
+h3{
+    font-size: 25px;
+}
+.select-red{
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: #FDE8E8;
+    color: tomato;
+}
+
+.input-box {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 50px;
+}
+#other-amount{
+    width: 100%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #EEEBEB;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.plans{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 11%;
+}
+.card{
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 15px;
+    width: 30%;
+    padding: 50px 20px;
+    margin-right: 3%;
+}
+.card img {
+    width: 50px;
+}
+.d-flex{
+    display:flex;
+}
+.half-width {
+    width: 50%;
+    padding-left: 10px;
+}
+.image-width{
+    width: 50%;
+    padding:0px 40px;
+}
+.contribute{
+    font-size:40px
+}
+.subscribe{
+    margin:0 30%;
+    box-shadow:5px 5px 15px grey;
+    border-radius:15px;
+    background-image: linear-gradient(rgb(57, 180, 228), rgb(33, 58, 198));
+    padding:50px 100px;
+    text-align:center;
+}
+#e-mail {
+    width: 37%;
+    padding: 12px 20px;
+    margin-right: -10px;
+    background-color: #D2D2C9;
+    border-radius: 5px;
+    border: none;
+}
+#submit{
+    padding: 12px 20px;
+    background-color: #9DDEFC;
+    border-radius: 5px;
+    border: none;
+}
+.footer-area{
+    background-color: rgb(5, 3, 34);
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-style: italic;
+}
